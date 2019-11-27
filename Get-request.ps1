@@ -1,6 +1,6 @@
 
-$ApiKey = "3802828F-24E8-4794-94CF-F3D5763514A2" # Technician API Key
-$SdpUri = "http://itildemo.servicedeskplus.com" # SDP URL
+$ApiKey = "D89B534B-A2CA-4E31-A992-0D23C472EA9E" # Technician API Key
+$SdpUri = "https://demo.servicedeskplus.com" # SDP URL
 $header = @{TECHNICIAN_KEY=$ApiKey}
 
 # Gets information on an existing request
@@ -30,3 +30,4 @@ $test = $result.request
 $test
 #$request.psobject.TypeNames.Insert(0, "Request")
 }
+Get-Request 18
